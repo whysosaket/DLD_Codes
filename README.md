@@ -3,9 +3,10 @@
  
 # Instructions
 <strong>To use the code in vivado, remove (FROM TESTBENCH CODES)</strong>
-
-$dumpfile("dump.vcd");<br>
-$dumpvars(1);
+  initial begin<br>
+    $dumpfile("dump.vcd");<br>
+    $dumpvars(1);<br>
+  end
 
 <h3>Happy? :)</h3>
 
